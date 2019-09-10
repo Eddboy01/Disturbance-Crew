@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    font-weight:normal;
+    line-height:1.5;
+    color:#333;
+    overflow-x:hidden;
+  }
+  /* header section */
+  .v-header{
+    height:100vh;
+    width: 100vw;
+    display:flex;
+    align-items:center;
+    color:#fff;
+  }
+  
+  .containerx{
+    max-width:1000px;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    text-align:center;
+  }
+  
+  .fullscreen-video-wrap{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+  }
+  
+  .fullscreen-video-wrap video{
+    min-height:100%;
+    min-width:100%;
+  }
+  
+  .header-overlay{
+    height:100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    z-index:1;
+    background:rgba(44, 44, 44, 0.85);
+    opacity:0.85;
+  }
+  
+  .header-content{
+    z-index:2;
+    
+  }
+  .header-content .red{
+    color: red;
+    
+  }
+  .header-content .black{
+    color: #000;
+    
+  }
+  header .navigation-bar{
+    z-index:2;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .navigation-bar .logo{
+    position: absolute;
+    left: 20px
+  }
+  /* header .navigation-bar .navigation-link{
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 200;
+  } */
+  header .content-head .contact-link{
+    color: #fff;
+}
+  header .content-head .contact-link:hover{
+      text-decoration: none;
+  }
+  .header-content h1{
+    font-size:50px;
+    margin-bottom:0;
+  }
+  .containerx .content-head .header{
+      font-size: 3.5rem;
+      font-weight: 700;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      
+  }
+  .header-content p{
+    font-size:1.5rem;
+    display:block;
+    padding-top: 1rem;
+    padding-bottom:2rem;
+  }
+  
+  header .content-head .header-button{
+    padding: 12px 22px;
+  }
+  .containerx .container2 i{
+    padding: 0 6px;
+}
+/* About Section */
+
+.about-section{
+  background-color:rgb(46, 42, 42);
+  color: #fff;
+}
+.about-section .about-header{
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  font-family: 'Lexend Zetta', sans-serif;
+}
+.about-section .about-button{
+  color: #fff;
+  border-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+/* content Section */
+.content-section{
+  background-color: #fa2929;
+}
+.content-section .content-section-header{
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  font-family: 'Lexend Zetta', sans-serif;
+}
+
+/* .content-section .content-section-button{
+  margin-top: 1.3rem;
+}
+   */
+   .content-section i{
+     padding: 1rem;
+   }
