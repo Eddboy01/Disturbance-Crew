@@ -157,7 +157,7 @@
   padding-bottom: .5rem;
   font-family: 'Lexend Zetta', sans-serif;
 }
-@media(max-width:380px){
+@media(max-width: 420px){
   .content-section .content-section-header{
     font-size: 2rem;
   }
